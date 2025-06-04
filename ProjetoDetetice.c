@@ -4,7 +4,7 @@
 int main() {
     // Declaração das variáveis
     int opcao = 0;
-    int tentativas = 5;
+    int tentativas = 4;
     int pistaEscolhida;
     char suspeito[20];
     int acertou = 0;
@@ -49,6 +49,7 @@ int main() {
                 } else {
                     printf("Pista invalida! Escolha 1, 2 ou 3.\n");
                 }
+                tentativas--;
                 break;
 
             case 2:
